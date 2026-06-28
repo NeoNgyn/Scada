@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FINAL_G17.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'hcmute-blue': '#1a365d',
+                        'custom-green': '#a3cf62',
+                        'custom-dark-gray': '#404040',
+                        'custom-border': '#e5e7eb',
+                    }
+                }
+            }
+        }
+    </script>
+    <style data-purpose="custom-styles">
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        .hero-bg {
+            background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBn1ZG-QlpvKAL_mpyGK-bo0CBjiJcXoUoFe8l7W7jj_XRVbgH0OZ4E51z5gl1Z693IDcLM4vH_nG9PbEmFvgAdkpsXUckA1jjvl0kc1p9H5X60dhrHTh0mF5gFMgEWfM6W5z7LW1xrrNbSqmIv8fIUbXiPPR--N6jwH8e_MOYGW8emtHDQ213JeNTgzclc608txnBsKSWNyYS8E-a-bbsOY3-zBZ45SclIcqSDsaUfS2BIfocpmvDdboDt7EcLZXkp5ZLd-hxYje8);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative
+        }
+
+            .hero-bg::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.4)
+            }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <!-- BEGIN: MainHeader -->
+        <header class="bg-white shadow-sm z-10 relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo Section -->
+                    <div class="flex-shrink-0 flex items-center">
+                        <img alt="HCMUTE Logo" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYK9zMqztacmd9AZrDGjEvlXEgoCTiRI7QgSzQoYKsx6hbU01JSNKJ6M-WZN6RxuRDpi3yf-Pqkd0ZQBtTWwiykjbcxhmllJWiD9Lc9rwRNEoFZcCsMdK6DnAiMIBn_b6BJCKLi1WU1vN0WqIwBSAPOI8jDUX9kfB417R23zecQRrXJtQpbsygsUNO9QxaeKPDD90AYaKCNS1Z5FThLxLZp3lfbMjOpdjZUSMGoyPj9_bxpYmx7-qoJ3F9nkHcLubnjMuMm1m0h3c" style="clip-path: inset(0px 80% 80% 0px); object-fit: cover; width: 250px; height: 60px;" />
+                    </div>
+                    <!-- Navigation Menu -->
+                    <nav class="hidden md:flex space-x-8">
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Trang chủ</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Giới thiệu</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Dữ liệu trực tuyến</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Dữ liệu cảm biến</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Vận hành</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Thông tin</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- END: MainHeader -->
+        <!-- BEGIN: Hero Banner -->
+        <section class="hero-bg h-24 sm:h-32 flex items-center justify-center relative overflow-hidden">
+            <h1 class="relative z-10 text-white text-2xl sm:text-4xl font-bold tracking-wider uppercase text-center px-4 drop-shadow-lg">Giám sát hệ thống sản xuất viên né gỗ
+            </h1>
+        </section>
+        <!-- END: Hero Banner -->
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <!-- BEGIN: Main Footer -->
+            <footer class="bg-custom-dark-gray text-gray-300 py-8 relative">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-start md:items-center">
+                    <!-- Contact Info -->
+                    <div class="text-sm space-y-1 mb-4 md:mb-0">
+                        <p><span class="font-bold">• NHÓM:</span> 32</p>
+                        <p><span class="font-bold">• TRƯỞNG NHÓM:</span> Phạm Thiện Nhân</p>
+                        <p><span class="font-bold">• SĐT LIÊN LẠC:</span> 0358007440</p>
+                        <p><span class="font-bold">•</span> Nhanthu262n@gmail.com</p>
+                    </div>
+                    <!-- Copyright & Back to top -->
+                    <div class="flex flex-col items-end w-full md:w-auto">
+                        <p class="text-sm mb-4 md:mb-0">@Copyright 2023</p>
+                        <a class="absolute bottom-4 right-4 bg-gray-600 hover:bg-gray-500 text-white p-2 rounded inline-flex items-center justify-center transition-colors" href="#">
+                            <i class="fa-solid fa-angles-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+            <!-- END: Main Footer -->
+        </div>
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+</body>
+</html>
