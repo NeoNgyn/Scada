@@ -1,8 +1,8 @@
 ﻿<%@ Page Language="C#"
     MasterPageFile="~/Site.Master"
     AutoEventWireup="true"
-    CodeBehind="Dulieucb.aspx.cs"
-    Inherits="FINAL_G17.Dulieucb" %>
+    CodeBehind="SensorData.aspx.cs"
+    Inherits="FINAL_G17.SensorData" %>
 
 <asp:Content
     ID="Content1"
@@ -39,30 +39,26 @@
         </header>
         
         <section class="mb-4" data-purpose="input-controls">
-            <%-- Khu vực tìm kiếm theo ID và khoảng thời gian (Đặt trong UpdatePanel để không bị load lại trang) --%>
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
                     <div class="flex flex-wrap items-center gap-2">
                         <asp:TextBox ID="tbxSensorID" runat="server" class="border border-gray-400 px-3 py-1 w-32 focus:ring-0 focus:border-blue-500" placeholder="Mã CB"></asp:TextBox>
-                        <asp:TextBox ID="tbxStarttime" runat="server" class="border border-gray-400 px-3 py-1 w-32 focus:ring-0 focus:border-blue-500" placeholder="Bắt đầu"></asp:TextBox>
-                        <asp:TextBox ID="tbxEndtime" runat="server" class="border border-gray-400 px-3 py-1 w-32 focus:ring-0 focus:border-blue-500" placeholder="Kết thúc"></asp:TextBox>
+                        <asp:TextBox ID="tbxStarttime" runat="server" class="border border-gray-400 px-3 py-1 w-32 focus:ring-0 focus:border-blue-500" placeholder="Bắt đầu" Width="220px"></asp:TextBox>
+                        <asp:TextBox ID="tbxEndtime" runat="server" class="border border-gray-400 px-3 py-1 w-32 focus:ring-0 focus:border-blue-500" placeholder="Kết thúc" Width="220px"></asp:TextBox>
                         
                         <asp:Button ID="BtnXem" runat="server" Text="Xem giá trị cảm biến" OnClick="BtnXem_Click" class="bg-gray-100 hover:bg-gray-200 border border-gray-400 px-4 py-1 text-sm text-gray-700 transition-colors" />
                     </div>
                     
-                    <%-- Nơi bảng dữ liệu tìm kiếm đổ ra (Hàm BangHienThiGiaTriCamBien sử dụng Literal này) --%>
                     <div class="mt-4 overflow-x-auto">
                         <asp:Literal ID="Literal_BangHienThiGiaTriCamBien" runat="server"></asp:Literal>
                     </div>
                 </ContentTemplate>
             </asp:UpdatePanel>
 
-            <%-- Khu vực Xem tất cả dữ liệu (Nằm ngoài UpdatePanel theo đúng cấu trúc ảnh của bạn) --%>
             <div class="mt-4">
                 <asp:Button ID="ButtonXemtatca" runat="server" Text="Xem tất cả giá trị cảm biến" OnClick="BtnXemtatca_Click" class="bg-gray-100 hover:bg-gray-200 border border-gray-400 px-4 py-1 text-sm text-gray-700 transition-colors" />
             </div>
             
-            <%-- Nơi bảng dữ liệu "Xem tất cả" đổ ra (Hàm HienThiGiaTriCamBien sử dụng Literal này) --%>
             <div class="mt-4 overflow-x-auto">
                 <asp:Literal ID="Literal_HienThiGiaTriCamBien" runat="server"></asp:Literal>
             </div>
