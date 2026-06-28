@@ -11,7 +11,7 @@ namespace FINAL_G17
 {
 
 
-    public partial class Dulieucb
+    public partial class SensorData
     {
 
         /// <summary>
