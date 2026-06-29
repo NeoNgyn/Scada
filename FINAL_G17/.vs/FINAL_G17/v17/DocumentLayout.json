@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\",
+  "WorkspaceRootPath": "D:\\Scada\\Scada\\FINAL_G17\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\information.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\information.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\operation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\operation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\sensordata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\sensordata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\sensordata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\sensordata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\final_g17\\dal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|D:\\Scada\\Scada\\FINAL_G17\\final_g17\\dal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\dal\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\asp.net learning\\scada\\scada\\final_g17\\final_g17\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\dal\\sqlquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\dal\\sqlquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|D:\\Scada\\Scada\\FINAL_G17\\final_g17\\sensordata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\sensordata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,10 +36,6 @@
           "DockedHeight": 944,
           "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -59,9 +51,35 @@
           ]
         },
         {
-          "DockedHeight": 83,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 75,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Web.config",
+              "RelativeDocumentMoniker": "FINAL_G17\\Web.config",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Web.config",
+              "RelativeToolTip": "FINAL_G17\\Web.config",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-29T03:24:27.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx",
+              "RelativeDocumentMoniker": "FINAL_G17\\Login.aspx",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx",
+              "RelativeToolTip": "FINAL_G17\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-29T03:16:57.331Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -69,89 +87,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Information.aspx",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Information.aspx",
-              "RelativeDocumentMoniker": "FINAL_G17\\Information.aspx",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Information.aspx",
-              "RelativeToolTip": "FINAL_G17\\Information.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-28T20:12:50.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Content\\bootstrap.css",
-              "RelativeDocumentMoniker": "FINAL_G17\\Content\\bootstrap.css",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Content\\bootstrap.css",
-              "RelativeToolTip": "FINAL_G17\\Content\\bootstrap.css",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-28T20:04:33.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Operation.aspx.cs",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Operation.aspx.cs",
-              "RelativeDocumentMoniker": "FINAL_G17\\Operation.aspx.cs",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Operation.aspx.cs",
-              "RelativeToolTip": "FINAL_G17\\Operation.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "FINAL_G17\\Login.aspx.cs",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx.cs",
+              "RelativeToolTip": "FINAL_G17\\Login.aspx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T19:39:18.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Operation.aspx",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Operation.aspx",
-              "RelativeDocumentMoniker": "FINAL_G17\\Operation.aspx",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Operation.aspx",
-              "RelativeToolTip": "FINAL_G17\\Operation.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-28T19:39:11.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SensorData.aspx.cs",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx.cs",
-              "RelativeDocumentMoniker": "FINAL_G17\\SensorData.aspx.cs",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx.cs",
-              "RelativeToolTip": "FINAL_G17\\SensorData.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T17:56:36.534Z",
+              "WhenOpened": "2026-06-29T03:17:05.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SensorData.aspx",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx",
-              "RelativeDocumentMoniker": "FINAL_G17\\SensorData.aspx",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx",
-              "RelativeToolTip": "FINAL_G17\\SensorData.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-28T17:47:48.869Z",
+              "Title": "SQLquery.cs",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\SQLquery.cs",
+              "RelativeDocumentMoniker": "FINAL_G17\\DAL\\SQLquery.cs",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\SQLquery.cs",
+              "RelativeToolTip": "FINAL_G17\\DAL\\SQLquery.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T03:16:37.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SensorData.aspx",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx",
+              "RelativeDocumentMoniker": "FINAL_G17\\SensorData.aspx",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx",
+              "RelativeToolTip": "FINAL_G17\\SensorData.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-28T17:47:48.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Database.cs",
-              "DocumentMoniker": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\Database.cs",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\Database.cs",
               "RelativeDocumentMoniker": "FINAL_G17\\DAL\\Database.cs",
-              "ToolTip": "D:\\ASP.NET Learning\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\Database.cs",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\DAL\\Database.cs",
               "RelativeToolTip": "FINAL_G17\\DAL\\Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T16:04:12.699Z",
               "EditorCaption": ""
@@ -179,7 +158,7 @@
           ]
         },
         {
-          "DockedHeight": 83,
+          "DockedHeight": 15,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -189,6 +168,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
