@@ -26,7 +26,7 @@ namespace FINAL_G17
             {
                 SaveLoginHistory(username);
                 Session["Username"] = username;
-                Response.Redirect("~/Default.aspx");
+                Response.Redirect("~/Home.aspx");
             }
             else
             {

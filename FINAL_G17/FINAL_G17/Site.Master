@@ -97,8 +97,11 @@
         </header>
         <!-- END: MainHeader -->
         <!-- BEGIN: Hero Banner -->
-        <section class="hero-bg h-24 sm:h-32 flex items-center justify-center relative overflow-hidden">
-            <h1 class="relative z-10 text-white text-2xl sm:text-4xl font-bold tracking-wider uppercase text-center px-4 drop-shadow-lg">Giám sát hệ thống sản xuất viên né gỗ
+        <section class="hero-bg h-40 flex flex-col items-center justify-center relative overflow-hidden">
+            <h1 class="relative z-10 text-white text-2xl sm:text-4xl font-bold tracking-wider uppercase text-center">Hệ thống Scada
+            </h1>
+
+            <h1 class="relative z-10 text-white text-xl sm:text-3xl font-bold tracking-wider uppercase text-center mt-2">Giám sát hệ thống sản xuất viên nén gỗ
             </h1>
         </section>
         <!-- END: Hero Banner -->
