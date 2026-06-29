@@ -105,6 +105,7 @@
     <Content Include="assets\img\img2.png" />
     <Content Include="assets\img\quytrinh.jpg" />
     <Content Include="assets\img\sanxuat.png" />
+    <Content Include="assets\img\skpt.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />

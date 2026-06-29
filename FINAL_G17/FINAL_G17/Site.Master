@@ -103,20 +103,25 @@
         <!-- BEGIN: MainHeader -->
         <header class="bg-white shadow-sm z-10 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center h-20">
+                <div class="flex justify-between items-center py-3">
+
                     <!-- Logo Section -->
                     <div class="flex-shrink-0 flex items-center">
-                        <img alt="HCMUTE Logo" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYK9zMqztacmd9AZrDGjEvlXEgoCTiRI7QgSzQoYKsx6hbU01JSNKJ6M-WZN6RxuRDpi3yf-Pqkd0ZQBtTWwiykjbcxhmllJWiD9Lc9rwRNEoFZcCsMdK6DnAiMIBn_b6BJCKLi1WU1vN0WqIwBSAPOI8jDUX9kfB417R23zecQRrXJtQpbsygsUNO9QxaeKPDD90AYaKCNS1Z5FThLxLZp3lfbMjOpdjZUSMGoyPj9_bxpYmx7-qoJ3F9nkHcLubnjMuMm1m0h3c" style="clip-path: inset(0px 80% 80% 0px); object-fit: cover; width: 250px; height: 60px;" />
+                        <img alt="HCMUTE Logo"
+                            src="assets/img/skpt.png"
+                            style="width: auto; height: 80px; object-fit: contain;" />
                     </div>
+
                     <!-- Navigation Menu -->
-                    <nav class="hidden md:flex space-x-8">
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Home.aspx">Trang chủ</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Introduce.aspx">Giới thiệu</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Dữ liệu trực tuyến</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="SensorData.aspx">Dữ liệu cảm biến</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Operation.aspx">Vận hành</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Information.aspx">Thông tin</a>
+                    <nav class="hidden md:flex flex-wrap justify-end gap-x-2 gap-y-1 flex-1 ml-8">
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Home.aspx">Trang chủ</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Introduce.aspx">Giới thiệu</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="#">Dữ liệu trực tuyến</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="SensorData.aspx">Dữ liệu cảm biến</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Operation.aspx">Vận hành</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Information.aspx">Thông tin</a>
                     </nav>
+
                 </div>
             </div>
         </header>
