@@ -15,24 +15,24 @@ namespace FINAL_G17
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    // Kiểm tra xem người dùng đã đăng nhập hay chưa
-            //    if (Session["username"] == null)
-            //    {
-            //        // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
-            //        Response.Redirect("Login.aspx");
-            //    }
-            //    else
-            //    {
-            //        // Người dùng đã đăng nhập, thực hiện các hành động cần thiết
-            //        //UserDetail.Text = "Welcome, " + Session["username"].ToString();
+            if (!IsPostBack)
+            {
+                // Kiểm tra xem người dùng đã đăng nhập hay chưa
+                if (Session["username"] == null)
+                {
+                    // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
+                    Response.Redirect("Login.aspx");
+                }
+                else
+                {
+                    // Người dùng đã đăng nhập, thực hiện các hành động cần thiết
+                    //UserDetail.Text = "Welcome, " + Session["username"].ToString();
 
-            //LoadLoginHistoryWithFilter(Session["username"].ToString());
-            //    }
-            //}
+                    LoadLoginHistoryWithFilter(Session["username"].ToString());
+                }
+            }
 
-            LoadLoginHistoryWithFilter("Your_username");
+            //LoadLoginHistoryWithFilter("Your_username");
         }
 
         private void LoadLoginHistoryWithFilter(string username)
@@ -41,17 +41,14 @@ namespace FINAL_G17
             {
                 using (SqlConnection connection = Database.GetConnection())
                 {
-                    connection.Open();
+                    connection.Open();            
 
-                    string query = "SELECT * FROM LoginHistory order by LoginTime desc ";
+                    //Code used to retrieve login history for the specific user
+                    string query = "SELECT * FROM LoginHistory WHERE Username = @Username ORDER BY LoginTime DESC";
+
                     SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
 
-                    // Code used to retrieve login history for the specific user
-                    //string query = "SELECT * FROM LoginHistory WHERE Username = @Username ORDER BY LoginTime DESC";
-
-                    //SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
-
-                    //adapter.SelectCommand.Parameters.AddWithValue("@Username", username);
+                    adapter.SelectCommand.Parameters.AddWithValue("@Username", username);
 
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);

@@ -24,6 +24,7 @@ namespace FINAL_G17
 
             if (CheckLogin(username, password))
             {
+                SaveLoginHistory(username);
                 Session["Username"] = username;
                 Response.Redirect("~/Default.aspx");
             }
@@ -51,6 +52,29 @@ namespace FINAL_G17
                 conn.Open();
                 int count = (int)cmd.ExecuteScalar();
                 return count > 0;
+            }
+        }
+
+        private bool SaveLoginHistory(string username)
+        {
+            string query = @"INSERT INTO LoginHistory (Username, LoginTime)
+                     VALUES (@Username, @LoginTime)";
+
+            try
+            {
+                using (SqlConnection conn = Database.GetConnection())
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Username", username);
+                    cmd.Parameters.AddWithValue("@LoginTime", DateTime.Now);
+
+                    conn.Open();
+                    return cmd.ExecuteNonQuery() > 0;
+                }
+            }
+            catch
+            {
+                return false;
             }
         }
 

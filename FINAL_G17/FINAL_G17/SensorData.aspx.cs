@@ -15,20 +15,20 @@ namespace FINAL_G17
         SQLquery _sql;
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-            //{
-            //    // Kiểm tra xem người dùng đã đăng nhập hay chưa
-            //    if (Session["username"] == null)
-            //    {
-            //        // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
-            //        Response.Redirect("Login.aspx");
-            //    }
-            //    else
-            //    {
-            //        // Người dùng đã đăng nhập, thực hiện các hành động cần thiết
-            //        //UserDetail.Text = "Welcome, " + Session["username"].ToString();
-            //    }
-            //}
+            if (!IsPostBack)
+            {
+                // Kiểm tra xem người dùng đã đăng nhập hay chưa
+                if (Session["username"] == null)
+                {
+                    // Nếu chưa đăng nhập, chuyển hướng về trang đăng nhập
+                    Response.Redirect("Login.aspx");
+                }
+                else
+                {
+                    // Người dùng đã đăng nhập, thực hiện các hành động cần thiết
+                    //UserDetail.Text = "Welcome, " + Session["username"].ToString();
+                }
+            }
 
             string connectionString = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;
             _sql = new SQLquery(connectionString);
