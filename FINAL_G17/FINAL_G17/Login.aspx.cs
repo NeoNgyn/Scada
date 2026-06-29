@@ -25,7 +25,7 @@ namespace FINAL_G17
             if (CheckLogin(username, password))
             {
                 Session["Username"] = username;
-                Response.Redirect("~/Default.aspx");
+                Response.Redirect("~/Home.aspx");
             }
             else
             {
