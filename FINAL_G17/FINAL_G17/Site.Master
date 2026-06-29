@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> Scada Nhom 17</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -116,7 +116,7 @@
                     <nav class="hidden md:flex flex-wrap justify-end gap-x-2 gap-y-1 flex-1 ml-8">
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Home.aspx">Trang chủ</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Introduce.aspx">Giới thiệu</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="#">Dữ liệu trực tuyến</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="StreamData.aspx">Dữ liệu trực tuyến</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="SensorData.aspx">Dữ liệu cảm biến</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Operation.aspx">Vận hành</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide whitespace-nowrap" href="Information.aspx">Thông tin</a>

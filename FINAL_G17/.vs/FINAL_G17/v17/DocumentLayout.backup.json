@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Scada\\Scada\\FINAL_G17\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\streamdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\streamdata.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\introduce.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\introduce.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\streamdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\streamdata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\sensordata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\sensordata.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|d:\\scada\\scada\\final_g17\\final_g17\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5C5896-3C88-4903-95E6-B4B8788E1FA8}|FINAL_G17\\FINAL_G17.csproj|solutionrelative:final_g17\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,22 +47,9 @@
           ]
         },
         {
-          "DockedHeight": 86,
+          "DockedHeight": 66,
           "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Introduce.aspx",
-              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Introduce.aspx",
-              "RelativeDocumentMoniker": "FINAL_G17\\Introduce.aspx",
-              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Introduce.aspx",
-              "RelativeToolTip": "FINAL_G17\\Introduce.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-29T06:23:37.771Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -71,14 +58,40 @@
               "RelativeDocumentMoniker": "FINAL_G17\\SensorData.aspx.cs",
               "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\SensorData.aspx.cs",
               "RelativeToolTip": "FINAL_G17\\SensorData.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T06:17:04.691Z",
+              "WhenOpened": "2026-06-29T06:36:51.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StreamData.aspx.cs",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\StreamData.aspx.cs",
+              "RelativeDocumentMoniker": "FINAL_G17\\StreamData.aspx.cs",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\StreamData.aspx.cs",
+              "RelativeToolTip": "FINAL_G17\\StreamData.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T06:36:37.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StreamData.aspx",
+              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\StreamData.aspx",
+              "RelativeDocumentMoniker": "FINAL_G17\\StreamData.aspx",
+              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\StreamData.aspx",
+              "RelativeToolTip": "FINAL_G17\\StreamData.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-29T06:31:18.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Site.Master",
               "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Site.Master",
               "RelativeDocumentMoniker": "FINAL_G17\\Site.Master",
@@ -96,19 +109,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx",
-              "RelativeDocumentMoniker": "FINAL_G17\\Login.aspx",
-              "ToolTip": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Login.aspx",
-              "RelativeToolTip": "FINAL_G17\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-06-29T06:15:16.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Site.Master.cs",
               "DocumentMoniker": "D:\\Scada\\Scada\\FINAL_G17\\FINAL_G17\\Site.Master.cs",
               "RelativeDocumentMoniker": "FINAL_G17\\Site.Master.cs",
@@ -142,7 +142,7 @@
           ]
         },
         {
-          "DockedHeight": 4,
+          "DockedHeight": 24,
           "SelectedChildIndex": -1,
           "Children": [
             {

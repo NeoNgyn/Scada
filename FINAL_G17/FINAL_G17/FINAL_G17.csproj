@@ -160,6 +160,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Introduce.aspx" />
+    <Content Include="StreamData.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="Introduce.aspx.designer.cs">
       <DependentUpon>Introduce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StreamData.aspx.cs">
+      <DependentUpon>StreamData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StreamData.aspx.designer.cs">
+      <DependentUpon>StreamData.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
