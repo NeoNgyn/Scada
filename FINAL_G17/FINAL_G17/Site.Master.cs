@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace FINAL_G17
 {
@@ -11,7 +7,22 @@ namespace FINAL_G17
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Username"] != null)
+            {
+                topWelcomeBar.Visible = true;
+                litUsername.Text = Session["Username"].ToString();
+            }
+            else
+            {
+                topWelcomeBar.Visible = false;
+            }
+        }
 
+        protected void lbtnLogout_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("~/Login.aspx");
         }
     }
 }

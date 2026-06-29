@@ -15,6 +15,33 @@ namespace FINAL_G17
     {
 
         /// <summary>
+        /// topWelcomeBar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl topWelcomeBar;
+
+        /// <summary>
+        /// litUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litUsername;
+
+        /// <summary>
+        /// lbtnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lbtnLogout;
+
+        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>

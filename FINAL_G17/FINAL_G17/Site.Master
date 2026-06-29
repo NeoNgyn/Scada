@@ -75,6 +75,31 @@
             </Scripts>
         </asp:ScriptManager>
 
+        <!-- BEGIN: Top Welcome Bar -->
+        <div class="bg-gray-100 border-b border-gray-200 py-1 px-4 text-right text-sm text-gray-600"
+            runat="server" id="topWelcomeBar" visible="false">
+            Welcome to WebSite : 
+   
+            <span class="font-semibold text-gray-800">Welcome,
+                <asp:Literal ID="litUsername" runat="server" />
+            </span>
+            &nbsp;&nbsp;
+   
+            <div class="inline-block relative group">
+                <button class="font-semibold text-gray-700 hover:text-gray-900">
+                    <i class="fa-solid fa-user text-xs mr-1"></i>MY ACCOUNT ▾
+       
+                </button>
+                <div class="hidden group-hover:block absolute right-0 bg-white border border-gray-200 shadow-md rounded z-50 min-w-[140px]">
+                    <asp:LinkButton ID="lbtnLogout" runat="server" OnClick="lbtnLogout_Click"
+                        CssClass="block px-4 py-2 text-sm text-red-600 hover:bg-gray-50 w-full text-left">
+                <i class="fa-solid fa-right-from-bracket mr-1"></i> Đăng xuất
+            </asp:LinkButton>
+                </div>
+            </div>
+        </div>
+        <!-- END: Top Welcome Bar -->
+
         <!-- BEGIN: MainHeader -->
         <header class="bg-white shadow-sm z-10 relative">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -85,8 +110,8 @@
                     </div>
                     <!-- Navigation Menu -->
                     <nav class="hidden md:flex space-x-8">
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Trang chủ</a>
-                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Giới thiệu</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Home.aspx">Trang chủ</a>
+                        <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Introduce.aspx">Giới thiệu</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="#">Dữ liệu trực tuyến</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="SensorData.aspx">Dữ liệu cảm biến</a>
                         <a class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium uppercase tracking-wide" href="Operation.aspx">Vận hành</a>
